@@ -142,6 +142,7 @@ body{
 
 .project-section{
     height: 50rem;
+    padding-top: 1rem;
 }
 
 .project-heading{
@@ -241,7 +242,7 @@ body{
     width: 25rem;
     border: 5px transparent;
     border-radius: 1rem;
-    transition: transform 0.3s, border-top 0.3s, border-bottom 0.3s;
+    transition: transform 0.2s, border-top 0.2s, border-bottom 0.2s;
 }
 
 .certificate1:hover, .certificate2:hover, .certificate3:hover{
@@ -258,11 +259,14 @@ body{
 }
 
 .education-section{
-    height: 70rem;
+    height: 60rem;
     display: flex;
+    padding: 2rem 5rem 0 0;
     flex-direction: column;
     align-items: center;
     align-items: center;
+    gap: 4rem;
+    border: 1px dotted #61210F;
 }
 
 .education-heading{
@@ -273,17 +277,62 @@ body{
 }
 
 .education{
+    font-size: 1.2rem;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .college, .senior-secondary, .secondary{
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+
+.year{
+    margin-left: 10rem;
+    width: 50%;
+    text-align: left;
+}
+
+.school-name{
+    padding: 1rem 3rem 2rem 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 0.3rem solid #61210F;
+    border-radius: 2rem;
+    gap: 0.5rem;
+    transition: transform 0.3s;
+}
+
+.school-name:hover{
+    transform: scale(105%);
+    box-shadow: 0.01rem 0.01rem 1rem rgba(219, 145, 7, 0.531);
+}
+
+.school-name ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.about-section{
+    height: 50rem;
+    background-color: #61210F;
+    color: #F6F7EB;
+    padding-top: 1rem;
+}
+
+.about-heading{
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20rem;
+    height: 5rem;
 }
+
