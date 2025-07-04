@@ -489,7 +489,7 @@ body{
     box-shadow: 1.5rem 1.5rem 5rem rgba(66, 32, 32, 0.583);
     border-radius: 2rem;
     opacity: 10px;
-    background-image: url("background\ image2.jpg");
+    background-image: url("background\ image2.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-left: 5rem;
@@ -498,7 +498,8 @@ body{
 }
 
 .contact-msg{
-    color: #fafafa;
+    color: #56170bcf;
+    background-color: #f6f7eb47;
     width: 50%;
     height: 50%;
     padding: 5rem;
@@ -508,13 +509,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
     border-radius: 2rem;
 }
 
 .contact-msg p{
     font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .mail{
@@ -580,7 +580,7 @@ body{
     width: 40%;
     height: 60%;
     gap: 3rem;
-    background-color: #f6f7eb49;
+    background-color:#f6f7eb47;
     color: #61210F;
     box-shadow: 1.5rem 1.5rem 5rem rgba(94, 59, 59, 0.468);
     border-radius: 2rem;
