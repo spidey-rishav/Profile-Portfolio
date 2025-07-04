@@ -258,10 +258,10 @@ body{
     justify-content: center;
     align-items: center;
     height: 3rem;
-    width: 5rem;
+    width: 6rem;
     color: #61210F;
     border: 3px solid #61210F;
-    border-radius: 1rem;
+    border-radius: 2rem;
     font-size: 1.2rem;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -276,10 +276,10 @@ body{
     justify-content: center;
     align-items: center;
     border: 0.2rem solid #61210F;
-    border-radius: 2rem;
+    border-radius: 3rem;
     color: #61210F;
     height: 5rem;
-    width: 12rem;
+    width: 15rem;
     transition: transform 0.4s;
 }
 
