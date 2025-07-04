@@ -5,10 +5,12 @@
 
 body{
     background-image: url("background\ image.jpg");
+    background-size: contain;
 }
 
 .mini-project-heading{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 4rem;
 }
