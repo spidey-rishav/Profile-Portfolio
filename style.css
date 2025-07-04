@@ -498,6 +498,7 @@ body{
 }
 
 .contact-msg{
+    color: #fafafa;
     width: 50%;
     height: 50%;
     padding: 5rem;
@@ -512,7 +513,8 @@ body{
 }
 
 .contact-msg p{
-    font-weight: 500;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .mail{
