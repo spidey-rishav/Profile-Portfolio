@@ -273,12 +273,14 @@ body{
     border-radius: 2rem;
     height: 8%;
     width: 12%;
+    transition: transform 0.4s;
 }
 
 .mini-project:hover{
     background-color: #61210F;
     color: #F6F7EB;
     box-shadow: 0.01rem 0.01rem 1rem rgba(102, 69, 9, 0.672);
+    transform: scale(105%);
 }
 
 .certificate-section{
@@ -453,7 +455,7 @@ body{
 }
 
 .contact-section{
-    height: 60rem;
+    height: 55rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -476,6 +478,7 @@ body{
     align-items: center;
     height: 80%;
     width: 70%;
+    color: #F6F7EB;
     box-shadow: 1.5rem 1.5rem 5rem rgba(66, 32, 32, 0.583);
     border-radius: 2rem;
     background-image: url("background\ image3.png");
@@ -491,26 +494,113 @@ body{
 .contact-msg{
     width: 50%;
     height: 50%;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    background-color: #f6f7eba8;
+    gap: 4rem;
     border-radius: 2rem;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    gap: 2rem;
+}
+
+.social-media >div{
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.social-media >div:hover{
+    transform: scale(110%);
+}
+
+.social-media > div img{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 .contact-form{
+    padding: 2rem 5rem 3rem 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
-    height: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: 40%;
+    height: 60%;
     gap: 3rem;
-    background-color: #f6f7eba8;
+    background-color: #f6f7eb49;
+    color: #61210F;
+    box-shadow: 1.5rem 1.5rem 5rem rgba(94, 59, 59, 0.468);
     border-radius: 2rem;
 }
 
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 2rem;
+}
+
+form > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    height: 15%;
+    width: 100%;
+    padding: 1%;
+}
+
+form input{
+    font-size: 1.2rem;
+    padding: 2%;
+    border: 1px solid #61210F;
+    border-radius: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+form input:hover{
+    box-shadow: 0.01rem 0.01rem 1rem rgba(73, 55, 22, 0.439);
+}
+
+.form-name{
+    gap: 1rem;
+    display: flex;
+
+}
+
+.form-message{
+    height: 40%;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #61210F;
+    color: #F6F7EB;
+    width: 30%;
+    border-radius: 2rem;
+    transition: transform 0.3s;
+}
+
+.submit:hover{
+    transform: scale(105%);
+    box-shadow: 0.01rem 0.01rem 1rem rgba(219, 145, 7, 0.531);
+}
