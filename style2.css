@@ -8,9 +8,66 @@ body{
     background-size: contain;
 }
 
+.container{
+    padding: 2rem;
+}
+
 .mini-project-heading{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 4rem;
+    height: 5rem;
+}
+
+.project-div1, .project-div2{
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    padding: 3rem;
+}
+
+.project1, .project2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+    width: 30%;
+    height: 90%;
+    border: 0.2rem solid #61210F;
+    border-radius: 2rem;
+    transition: transform 0.3s;
+}
+
+.project1:hover, .project2:hover{
+    transform: scale(105%);
+    box-shadow: 0.01rem 0.01rem 1rem rgba(219, 145, 7, 0.531);
+}
+
+.project-div1 > div img, .project-div2 > div img{
+    height: 35%;
+    border: 0.3rem solid #61210F;
+    border-radius: 2rem;
+}
+
+.project-div1 > div a, .project-div2 > div a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: #61210F;
+    height: 5%;
+    width: 20%;
+    border: 0.2rem solid #61210F;
+    border-radius: 2rem;
+}
+
+.project-div1 > div a:hover, .project-div2 > div a:hover{
+    color: #fbfcec;
+    background-color: #61210F;
 }
