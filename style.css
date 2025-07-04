@@ -253,19 +253,20 @@ body{
     border-radius: 1rem;
 }
 
-.project-link{
+.project-link a{
     display: grid;
     justify-content: center;
     align-items: center;
-    height: 10%;
-    width: 30%;
+    height: 3rem;
+    width: 5rem;
+    color: #61210F;
     border: 3px solid #61210F;
     border-radius: 1rem;
     font-size: 1.2rem;
     transition: background-color 0.3s, color 0.3s;
 }
 
-.project-link:hover{
+.project-link a:hover{
     background-color: #61210F;
     color: #F6F7EB;
 }
