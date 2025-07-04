@@ -65,8 +65,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    padding: 1.7rem;
+    color: #F6F7EB;
+    font-size: 1.3rem;
 }
 
 .navoptions a:hover{
@@ -199,7 +200,7 @@ body{
 
 .project-section{
     height: 60rem;
-    padding-top: 1rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -269,18 +270,19 @@ body{
     color: #F6F7EB;
 }
 
-.mini-project{
+.mini-project a{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0.2rem solid #61210F;
     border-radius: 2rem;
-    height: 8%;
-    width: 12%;
+    color: #61210F;
+    height: 5rem;
+    width: 12rem;
     transition: transform 0.4s;
 }
 
-.mini-project:hover{
+.mini-project a:hover{
     background-color: #61210F;
     color: #F6F7EB;
     box-shadow: 0.01rem 0.01rem 1rem rgba(102, 69, 9, 0.672);
@@ -288,6 +290,7 @@ body{
 }
 
 .certificate-section{
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,7 +345,7 @@ body{
 .education-section{
     height: 60rem;
     display: flex;
-    padding: 2rem 5rem 0 0;
+    padding: 4rem 5rem 0 0;
     flex-direction: column;
     align-items: center;
     gap: 4rem;
@@ -405,7 +408,7 @@ body{
     height: 70rem;
     background-color: #61210F;
     color: #F6F7EB;
-    padding-top: 2rem;
+    padding-top: 6rem;
     background-image: url("brown\ background\ image.jpg");
     background-size: cover;
 }
@@ -485,9 +488,8 @@ body{
     color: #F6F7EB;
     box-shadow: 1.5rem 1.5rem 5rem rgba(66, 32, 32, 0.583);
     border-radius: 2rem;
-    background-image: url("background\ image3.png");
     opacity: 10px;
-    background-image: url("background\ image3.jpg");
+    background-image: url("background\ image2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     padding-left: 5rem;
@@ -505,8 +507,41 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 2rem;
     border-radius: 2rem;
+}
+
+.contact-msg p{
+    font-weight: 500;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+    height: 20%;
+}
+
+.icon{
+    height: 40%;
+}
+
+.icon img{
+    height: 100%;
+}
+
+.mail-id a{
+    color: #F6F7EB;
+}
+
+.mail-id{
+    transition: transform 0.3s;
+}
+
+.mail-id:hover{
+    transform: scale(105%);
 }
 
 .social-media{
