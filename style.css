@@ -487,10 +487,10 @@ body{
     height: 80%;
     width: 70%;
     color: #F6F7EB;
-    box-shadow: 1.5rem 1.5rem 5rem rgba(66, 32, 32, 0.583);
+    box-shadow: 1.5rem 1.5rem 10rem rgba(66, 32, 32, 0.76);
     border-radius: 2rem;
     opacity: 10px;
-    background-image: url("background\ image2.png");
+    background-image: url("backgroung\ image2.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-left: 5rem;
@@ -499,8 +499,9 @@ body{
 }
 
 .contact-msg{
-    color: #56170bcf;
-    background-color: #f6f7eb47;
+    color: #F6F7EB;
+    /* color: #56170bcf; */
+    /* background-color: #f6f7eb47; */
     width: 50%;
     height: 50%;
     padding: 5rem;
