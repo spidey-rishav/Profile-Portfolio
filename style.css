@@ -128,17 +128,16 @@ body{
     width: 40rem;
     z-index: 1;
 }
-
+  
 .picture img{
-    height: 20rem;
-    width: 20rem;
+    height: 50%;
+    width: 100%;
     border-radius: 10%;
-    transition: height 0.5s, width 0.5s;
+    transition: transform 0.5s;
 }
 
 .picture img:hover {
-    height: 25rem;
-    width: 25rem;
+  transform: scale(120%);
 }
 
 .detail{
@@ -526,6 +525,7 @@ body{
     gap: 1rem;
     font-size: 1.3rem;
     height: 20%;
+    width: 50%;
 }
 
 .icon{
@@ -554,10 +554,11 @@ body{
     align-items: center;
     height: 15%;
     gap: 2rem;
-}
-
-.social-media >div{
-    height: 100%;
+  }
+  
+  .social-media >div{
+    height: 80%;
+    width: 70%;
     transition: transform 0.3s;
 }
 
@@ -649,201 +650,6 @@ form input:hover{
     box-shadow: 0.01rem 0.01rem 1rem rgba(219, 145, 7, 0.531);
 }
 
-/* Responsive Code */
-/* Responsive Design: Mobile and Tablet */
-
-@media (max-width: 500px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    width: 40%;
-    padding: 0.5rem 0;
-  }
-  .name {
-    margin-left: 0;
-    width: 90%;
-    margin-bottom: 0.5rem;
-    text-align: center;
-  }
-  .navoptions {
-    width: 100%;
-    font-size: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .profile {
-    flex-direction: column;
-    padding: 2rem 1rem;
-    height: auto;
-    gap: 2rem;
-  }
-  .information {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  .fullpicture, .back, .picture {
-    width: 100%;
-    height: auto;
-    max-width: 350px;
-    margin: 0 auto;
-  }
-  .picture img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-  }
-  .detail {
-    width: 100%;
-  }
-  .project-section, .certificate-section, .education-section, .about-section, .contact-section {
-    padding: 2rem 1rem;
-    height: auto;
-  }
-  .projects, .certificates {
-    flex-direction: column;
-    gap: 2rem;
-    height: auto;
-  }
-  .project1, .project2, .certificates > div {
-    width: 95%;
-    height: auto;
-    margin: 0 auto;
-  }
-  .education {
-    gap: 1rem;
-  }
-  .college, .senior-secondary, .secondary {
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .school-name, .year {
-    width: 100%;
-    margin-left: 0;
-    padding: 1rem;
-  }
-  .about > div {
-    width: 95%;
-    height: auto;
-    padding: 1rem;
-  }
-  .contact {
-    flex-direction: column;
-    width: 100%;
-    padding: 1rem;
-    gap: 1rem;
-  }
-  .contact-msg, .contact-form {
-    width: 100%;
-    padding: 2rem 1rem;
-    font-size: 1.1rem;
-  }
-  .social-media {
-    gap: 1rem;
-  }
-}
-
-@media (max-width: 600px) {
-  body {
-    font-size: 0.95rem;
-  }
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    padding: 0.3rem 0;
-  }
-  .name {
-    font-size: 0.9rem;
-    width: 100%;
-    margin: 0.2rem auto;
-    text-align: center;
-  }
-  .navoptions {
-    font-size: 0.9rem;
-    flex-direction: column;
-    width: 100%;
-    padding: 0;
-  }
-  .navoptions a {
-    padding: 1rem 0.5rem;
-    font-size: 1rem;
-  }
-  .profile {
-    padding: 1rem 0.5rem;
-    gap: 1rem;
-  }
-  .fullpicture, .back, .picture {
-    width: 100%;
-    height: auto;
-    max-width: 180px;
-    margin: 0 auto;
-  }
-  .picture img {
-    width: 100%;
-    max-width: 120px;
-    height: auto;
-  }
-  .detail h1 {
-    font-size: 1.2rem;
-  }
-  .score {
-    gap: 0.5rem;
-    font-size: 1rem;
-    flex-wrap: wrap;
-  }
-  .project-section, .certificate-section, .education-section, .about-section, .contact-section {
-    padding: 1rem 0.5rem;
-    height: auto;
-  }
-  .projects, .certificates {
-    flex-direction: column;
-    gap: 1rem;
-    height: auto;
-  }
-  .project1, .project2, .certificates > div {
-    width: 100%;
-    height: auto;
-    padding: 0.5rem;
-    margin: 0 auto;
-  }
-  .mini-project a {
-    width: 100%;
-    font-size: 1rem;
-    height: 3rem;
-  }
-  .education {
-    gap: 0.5rem;
-  }
-  .college, .senior-secondary, .secondary {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  .school-name, .year {
-    width: 100%;
-    margin-left: 0;
-    padding: 0.5rem;
-  }
-  .about > div {
-    width: 100%;
-    height: auto;
-    padding: 0.5rem;
-    font-size: 1rem;
-  }
-  .contact {
-    flex-direction: column;
-    width: 100%;
-    padding: 0.5rem;
-    gap: 0.5rem;
-  }
-  .contact-msg, .contact-form {
-    width: 100%;
-    padding: 1rem 0.5rem;
-    font-size: 1rem;
-  }
-  .social-media {
-    gap: 0.5rem;
-  }
-}
-
 /* Responsive: Tablet */
 @media (max-width: 900px) {
   .navbar {
@@ -865,7 +671,7 @@ form input:hover{
   }
   .profile {
     flex-direction: column;
-    padding: 2rem 1rem;
+    padding: 10rem 1rem;
     height: auto;
     gap: 2rem;
   }
@@ -885,21 +691,31 @@ form input:hover{
     height: auto;
   }
   .detail {
+    margin-top: 20rem;
     width: 100%;
   }
   .project-section, .certificate-section, .education-section, .about-section, .contact-section {
-    padding: 2rem 1rem;
+    padding: 10rem 5rem 1rem 5rem;
     height: auto;
   }
   .projects, .certificates {
+    padding: 1rem;
     flex-direction: column;
     gap: 2rem;
     height: auto;
   }
-  .project1, .project2, .certificates > div {
+  .project1, .project2{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  } 
+  .certificates > div {
     width: 95%;
     height: auto;
     margin: 0 auto;
+  }
+  .certificates > div:hover{
+    transform: scale(110%);  
   }
   .education {
     gap: 1rem;
@@ -932,10 +748,37 @@ form input:hover{
   .social-media {
     gap: 1rem;
   }
+  .contact-msg img{
+    width: 20%;
+  }
+  .mail{
+    height: 100%;
+    width: 60%;
+  }
+  .icon{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .icon img{
+    height: 100%;
+  }
+  .social-media >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+  }
+  .social-media >div img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 }
 
 /* Responsive: Mobile */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   body {
     font-size: 0.95rem;
   }
@@ -952,7 +795,6 @@ form input:hover{
   }
   .navoptions {
     font-size: 0.9rem;
-    flex-direction: column;
     width: 100%;
     padding: 0;
   }
@@ -961,8 +803,9 @@ form input:hover{
     font-size: 1rem;
   }
   .profile {
-    padding: 1rem 0.5rem;
-    gap: 1rem;
+    padding: 10rem 0.5rem;
+    display: flex;
+    flex-direction: column;
   }
   .fullpicture, .back, .picture {
     width: 100%;
@@ -975,33 +818,45 @@ form input:hover{
     max-width: 120px;
     height: auto;
   }
+  .detail{
+    margin-top: 10rem;
+  }
   .detail h1 {
     font-size: 1.2rem;
   }
+  .detail h1:hover{
+    font-size: 1.4rem;
+  }
   .score {
-    gap: 0.5rem;
     font-size: 1rem;
     flex-wrap: wrap;
   }
   .project-section, .certificate-section, .education-section, .about-section, .contact-section {
-    padding: 1rem 0.5rem;
+    padding: 10rem 0.5rem 2rem 0.1rem;
     height: auto;
   }
   .projects, .certificates {
+    margin-top: 1rem;
     flex-direction: column;
     gap: 1rem;
     height: auto;
+    width: 90%;
   }
   .project1, .project2, .certificates > div {
+    gap: 1rem;
     width: 100%;
     height: auto;
     padding: 0.5rem;
     margin: 0 auto;
   }
   .mini-project a {
+    margin: 1rem 0 1rem 0 ;
     width: 100%;
     font-size: 1rem;
     height: 3rem;
+  }
+  .certificates > div:hover{
+    transform: scale(110%);  
   }
   .education {
     gap: 0.5rem;
@@ -1011,7 +866,7 @@ form input:hover{
     gap: 0.5rem;
   }
   .school-name, .year {
-    width: 100%;
+    width: 90%;
     margin-left: 0;
     padding: 0.5rem;
   }
@@ -1028,12 +883,34 @@ form input:hover{
     gap: 0.5rem;
   }
   .contact-msg, .contact-form {
-    width: 100%;
     padding: 1rem 0.5rem;
     font-size: 1rem;
   }
-  .social-media {
-    gap: 0.5rem;
+  .contact-msg img{
+    width: 20%;
+  }
+  .mail{
+    height: 100%;
+    width: 90%;
+  }
+  .icon{
+    height: 100%;
+    display: flex;
+    justify-content: end;
+  }
+  .icon img{
+    height: 100%;
+  }
+  .social-media >div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+  }
+  .social-media >div img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
-
