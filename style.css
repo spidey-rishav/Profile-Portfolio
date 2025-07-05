@@ -323,8 +323,8 @@ body{
 
 
 .certificates > div{
-    height: 20rem;
-    width: 30rem;
+    height: 50%;
+    width: 60%;
     border: 5px transparent;
     border-radius: 1rem;
     transition: transform 0.5s, border-top 0.3s, border-bottom 0.3s;
@@ -898,9 +898,7 @@ form input:hover{
     display: flex;
     justify-content: end;
   }
-  .icon img{
-    height: 100%;
-  }
+  
   .social-media >div{
     display: flex;
     justify-content: center;
