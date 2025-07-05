@@ -858,6 +858,9 @@ form input:hover{
   .certificates > div:hover{
     transform: scale(110%);  
   }
+  .education-section{
+    height: 70rem;
+  }
   .education {
     gap: 0.5rem;
   }
