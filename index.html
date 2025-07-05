@@ -6,6 +6,17 @@
     <title>Rishav's Portfolio</title>
     <link href="style.css" rel="Stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init({
+                publicKey: "3GOAwtqRuNXHEDAqM",
+            });
+        })();
+    </script>
+
 </head>
 <body>
     <div class="container">
@@ -246,17 +257,17 @@
                     <h3>Contact Me!</h3>
                     <form>
                         <div class="form-name">
-                            <input type="text" name="first-name" placeholder="First Name">
-                            <input type="text" name="last-name" placeholder="Last Name">
+                            <input type="text" id="first-name" placeholder="First Name">
+                            <input type="text" id="last-name" placeholder="Last Name">
                         </div>
                         <div class="form-email">
-                            <input type="email" class="form-control" name="email" placeholder="Email address">
+                            <input type="email" class="form-control" id="email" placeholder="Email address">
                         </div>
                         <div class="form-message">
-                            <input type="text" class="form-control" name="message" placeholder="Message">
+                            <input type="text" class="form-control" id="message" placeholder="Message">
                         </div>
                     </form>
-                    <div class="submit">Submit</div>
+                    <button class="btn" type="button" onclick="sendMail()">Submit</button>
                 </div>
             </div>
         </div>

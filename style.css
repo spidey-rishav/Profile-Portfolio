@@ -537,7 +537,7 @@ body{
 }
 
 .mail-id a{
-    color: #F6F7EB;
+    color: #61210F;
 }
 
 .mail-id{
@@ -632,7 +632,7 @@ form input:hover{
     height: 40%;
 }
 
-.submit{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -645,7 +645,7 @@ form input:hover{
     transition: transform 0.3s;
 }
 
-.submit:hover{
+.btn:hover{
     transform: scale(105%);
     box-shadow: 0.01rem 0.01rem 1rem rgba(219, 145, 7, 0.531);
 }
