@@ -43,14 +43,11 @@ body{
     font-size: 1rem;
     padding: 0.1rem;
     margin-left: 5rem;
+    transition: transform 0.3s;
 }
 
-.name {
-    font-size: 1rem;
-    transition: font-size 0.3s;
-}
 .name:hover {
-    font-size: 1.1rem;
+    transform: scale(105%);
 }
 
 .navoptions{
@@ -152,6 +149,21 @@ body{
 
 .detail h1:hover{
     font-size: 2.5rem;
+}
+
+.resume{
+  margin-top: 3%;
+  height: 10%;
+  padding: 2%;
+  background-color: #61210F;
+  color: #F6F7EB;
+  border-radius: 50px;
+  transition: transform 0.3s, box-shadow 0.2s;
+}
+
+.resume:hover{
+  transform: scale(105%);
+  box-shadow: 0.01rem 0.01rem 1rem rgba(58, 47, 26, 0.738);
 }
 
 .intro{
@@ -272,21 +284,35 @@ body{
     color: #F6F7EB;
 }
 
+@keyframes float {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
 .mini-project a{
     display: flex;
     justify-content: center;
     align-items: center;
     border: 0.2rem solid #61210F;
     border-radius: 3rem;
-    color: #61210F;
+    background-color: #61210F;
+    color: #F6F7EB;
     height: 5rem;
     width: 15rem;
     transition: transform 0.4s;
+    animation: float 2s ease-in-out infinite;
 }
 
 .mini-project a:hover{
-    background-color: #61210F;
-    color: #F6F7EB;
+    background-color: #F6F7EB;
+    color: #61210F;
     box-shadow: 0.01rem 0.01rem 1rem rgba(102, 69, 9, 0.672);
     transform: scale(105%);
 }
@@ -850,8 +876,10 @@ form input:hover{
     margin: 0 auto;
   }
   .mini-project a {
-    margin: 1rem 0 1rem 0 ;
+    margin: 2rem 0 1rem 0 ;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
     font-size: 1rem;
     height: 3rem;
   }
